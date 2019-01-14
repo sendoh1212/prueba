@@ -1,0 +1,30 @@
+
+        #todos div{
+            float: left;
+            border: solid 1px green;
+            margin: 3px;
+            width: 900px;
+            height: 60px;
+            overflow: auto;
+            padding-left: 5px;
+        }
+
+        
+
+        #pagina {
+            width: 80%;
+            margin: 0 auto;
+            border: solid 3px cadetblue;
+            border: radius: 5px;
+            min-height: 500px;
+        }
+
+        #banner{
+            height: 150px;
+            background: url(banner.jpg) no-repeat;
+            background-position: 200px, 50px;
+            background-size: 1000px, 500px;
+            
+
+        }
+ 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Agenda de contactos </title>
+    <link rel="stylesheet" href="css_Agenda/estilos.css">
+    <script src="js_Agenda/scripts.js"></script>
+    
+</head>
+<body>
+
+    <div id="pagina">
+        <div id="banner">
+
+        </div>
+
+        <div id="Centro">
+
+        
+
+    <div id="acciones"> <!--BOTON DE ACCIONES PARA AGREGAR UN NUEVO CONTACTO-->
+        <button onclick="agregar();">Agregar</button>
+        <button onclick="mostrar();">Actualizar</button>
+
+    </div>
+
+    <div id="formulario" style="display: none"> <!--EL FORMULARIO DONDE SE INSTRODUCEN LOS DATOS PARA AGREGARLOS-->
+        <table>
+            <tr>
+                <th>Nombre:</th>
+                <td><input type="text" id="txtNombre"/></td>
+            </tr>
+
+            <tr>
+                    <th>Apellido:</th>
+                    <td><input type="text" id="txtApellido"/></td>
+            </tr>
+
+            <tr>
+                    <th>Telefono:</th>
+                    <td><input type="text" id="txtTelefono"/></td>
+            </tr>
+
+            <tr>
+                    <th>Correo:</th>
+                    <td><input type="text" id="txtCorreo"/></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    
+                
+                    <button onclick="guardar();">Guardar</button>
+                </td>
+            </tr>
+
+
+        </table>
+        
+
+    </div>
+
+    <fieldset>
+        <legend>Contactos existentes</legend>
+        <div id="todos">
+
+        </div>
+    </fieldset>
+
+    </div>
+</div>
+    
+</body>
+</html>
